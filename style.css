@@ -1,0 +1,47 @@
+h1 {
+
+    color: darkblue;
+
+}
+
+p {
+
+    font-family: Arial;
+    font-style: normal;
+    font-size: large
+
+}
+
+.veggie {
+
+    color: green;
+
+}
+
+#first-item {
+
+    border-top: solid grey;
+
+}
+
+@media only screen and (max-device-width: 736px) and (orientation: portrait){
+
+
+    h1 {
+
+        font-size: 120px;
+
+    }
+
+}
+
+@media only screen and (max-device-width: 736px) and (orientation: landscape){
+
+
+    h1 {
+
+        font-size: 160px;
+
+    }
+
+}
