@@ -16,6 +16,10 @@
 //}
 
 jQuery("#greeting-form").on("submit", function(event_details) {
-    alert("Submitted");
+    var greeting = "Hello ";
+    var name = jQuery("#fullName").val();
+    var greeting_message = greeting + name;
+    $("#greeting-form").hide();
+    $("#greeting").append("<p>" + greeting_message + "</p>");
     event_details.preventDefault();
 });

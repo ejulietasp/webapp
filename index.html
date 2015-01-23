@@ -30,13 +30,28 @@
 
     <div class="row">
         <div class="col-md-8" id="greeting">
-             <form id="greeting-form" class = "form-inline">
-                 <div class="form-group">
-                 <label for="fullName">What's your full name?</label>
-                 <input type = "text" id = "fullName" name = "fullName" class="form-control" placeholder="Tacos eater">
-                 </div>
-                 <button class = "btn btn-default" type = "submit">OK</button>
-             </form>
+            <form id="booking-form" method = "post" action = "/booking" class = "form-inline">
+                <div class="form-group">
+                    <label for="fullName">Name</label>
+                    <br>
+                    <input type = "text" id = "fullName" name = "fullName" class="form-control" placeholder="Tacos eater">
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <br>
+                    <input type = "email" id = "email" name = "email" class="form-control" placeholder="@">
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="number">Number of guests</label>
+                    <br>
+                    <input type = "number" id = "number" name = "number" class="form-control" placeholder="Tacos eater">
+                </div>
+                <br>
+                <br>
+                <button class="btn btn-default" type = "submit">OK</button>
+            </form>
         </div>
     </div>
 
